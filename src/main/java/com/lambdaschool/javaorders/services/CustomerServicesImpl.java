@@ -63,7 +63,7 @@ public class CustomerServicesImpl
         newCustomer.setAgent(customer.getAgent());
 //        newCustomer.getAgent().clear();
 //        for (Agent a : customer.getAgent())
-//        newCustomer.getOrders().clear();
+        newCustomer.getOrders().clear();
         for (Order o : customer.getOrders())
         {
             Order newOrder = new Order();

@@ -9,10 +9,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "customers")
-@JsonIgnoreProperties({"hasvalueforopeningamt"}, {"hasvalueforreceiveamt"}  )
-@JsonIgnoreProperties(value = "hasvalueforreceiveamt")
-@JsonIgnoreProperties(value = "hasvalueforpaymentamt")
-@JsonIgnoreProperties(value = "hasvalueforoutstandingamt")
+@JsonIgnoreProperties(value= "hasvalueforopeningamt")
 public class Customer {
 
     @Id
